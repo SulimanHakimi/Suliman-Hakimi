@@ -4,8 +4,9 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 text-white text-center py-20"
+      className="flex justify-center flex-col bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 text-white text-center py-20"
     >
+      <img className='w-52 h-52 self-center rounded-full' src="https://media.licdn.com/dms/image/v2/D4D03AQEp4qksSwNcXw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731496707875?e=1741824000&v=beta&t=abF7hMg1PPIxwNPvM_BB82xZqaTgbwDl3hCOqUpdAko" alt="" />
       <h2 className="text-4xl font-bold">Hi, I’m Suliman Hakimi</h2>
       <p className="mt-4 text-lg">Your go-to developer for stunning and functional websites</p>
       <div className="mt-6">
