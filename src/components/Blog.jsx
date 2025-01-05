@@ -6,15 +6,14 @@ const Blog = () => {
       title: "Web Development Tips",
       description: "Best practices for writing clean and efficient code.",
       link: "/blog/web-dev-tips",
-      image: "https://tse3.mm.bing.net/th?id=OIP.s6LCK6z33Mqay4xAHdvmNAAAAA&w=200&h=283&c=7"
+      image: null
     },
     {
       title: "Tailwind CSS for Beginners",
       description: "A complete guide to using Tailwind CSS in your projects.",
       link: "/blog/tailwind-for-beginners",
-      image: "https://tse3.mm.bing.net/th?id=OIP.cAUJOvdRnsIXeZN92C9npgHaEK&w=200&h=112&c=7"
+      image: null
     },
-    // Add more blog posts as needed
   ];
   
   return (
