@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -8,25 +9,25 @@ const Contact = () => {
   });
   const [status, setStatus] = useState('');
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    try {
-      const response = await fetch('https://suliman-hakimi.vercel.app/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
+
+    emailjs
+      .send(
+        'service_sij9hag', 
+        'template_v3rjr84', 
+        formData,
+        'Ufc6wG8fADGYUCvLV' 
+      )
+      .then(
+        (response) => {
+          setStatus('Message sent successfully');
+          setFormData({ name: '', email: '', message: '' });
         },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        setStatus('Message sent successfully');
-        setFormData({ name: '', email: '', message: '' });
-      } else {
-        setStatus('Error sending message');
-      }
-    } catch (error) {
-      setStatus('Error sending message');
-    }
+        (error) => {
+          setStatus('Error sending message');
+        }
+      );
   };
 
   return (
