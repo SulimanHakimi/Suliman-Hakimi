@@ -6,7 +6,9 @@ import Portfolio from './components/Portfolio';
 import Blog from './components/Blog';
 import Services from './components/Services';
 import Contact from './components/Contact';
-import Footer from './components/Footer'; // Import Footer component
+import Footer from './components/Footer';
+import BookingForm from './components/Time-book';
+import WebsitePriceEstimator from './components/dyc-price';
 
 const App = () => {
   return (
@@ -17,8 +19,10 @@ const App = () => {
       <Portfolio />
       <Blog />
       <Services />
+      <WebsitePriceEstimator/>
+      <BookingForm/>
       <Contact />
-      <Footer /> {/* Add Footer */}
+      <Footer />
     </div>
   );
 };

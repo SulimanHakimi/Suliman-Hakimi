@@ -5,38 +5,20 @@ const Portfolio = () => {
     {
       title: "KuntoX Online Shop Website",
       description: "An e-commerce website built using WordPress, showcasing e-commerce features.",
-      link: "https://kuntox.fi", // Replace with actual project link
-      image: "https://homedesignideas.help/wp-content/uploads/2021/03/Online-Shopping-Website-Templates-Free-Download-HTML5-With-CSS.jpg"
+      link: "https://kuntox.fi",
+      image: "/kuntox.PNG"
     },
     {
       title: "Wowautohuolto Website",
       description: "A WordPress website designed for an auto service business.",
-      link: "https://Wowautohuolto.fi", // Replace with actual project link
-      image: "https://vierityspalkki.fi/wp-content/uploads/2018/10/atoy-autohuolto-verkkosivuston-uudistus.jpg"
-    },
-    {
-      title: "Binary Translator to English",
-      description: "A tool for converting binary code to English and vice versa, demonstrating problem-solving skills.",
-      link: "https://example.com", // Replace with actual project link
-      image: "https://www.webnots.com/wp-content/uploads/2019/07/binary-translator.jpg"
+      link: "https://Wowautohuolto.fi",
+      image: "/wow.PNG"
     },
     {
       title: "Quran Karim App",
       description: "A mobile app providing access to the Quran, showcasing commitment to meaningful applications.",
-      link: "https://example.com", // Replace with actual project link
-      image: "https://al-quran-kareem-lkran-lkrym.en.softonic.com/android/img/ss-0.jpg"
-    },
-    {
-      title: "Rapiditeration Full Website Clone",
-      description: "A complete clone of the Rapiditeration website, demonstrating skills in replicating complex websites.",
-      link: "https://example.com", // Replace with actual project link
-      image: "https://www.slideshare.net/mbsnapp/rapid-iterative-design-a-minimalist-approach-to-requirementsgathering-and-interface-design-for-agile-software-developers"
-    },
-    {
-      title: "Medical Website",
-      description: "A healthcare-focused website, demonstrating versatility in different domains.",
-      link: "https://example.com", // Replace with actual project link
-      image: "https://colorlib.com/wp/wp-content/uploads/sites/2/medical-website-templates.jpg"
+      link: "https://quran-karim-zeta.vercel.app/",
+      image: "/quran.PNG"
     },
   ];
 

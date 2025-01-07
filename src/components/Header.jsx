@@ -24,6 +24,8 @@ const Header = () => {
           <a href="#blog" className="hover:text-brand">Blog</a>
           <a href="#services" className="hover:text-brand">Services</a>
           <a href="#contact" className="hover:text-brand">Contact</a>
+          <a href="#book-time" className="hover:text-brand">Book Time</a> 
+          <a href="#WebsitePriceEstimator" className="hover:text-brand">Price Estimator</a>
         </nav>
 
         {/* Mobile Hamburger Menu */}
@@ -56,6 +58,8 @@ const Header = () => {
           <a href="#blog" className="block hover:text-brand" onClick={closeMenu}>Blog</a>
           <a href="#services" className="block hover:text-brand" onClick={closeMenu}>Services</a>
           <a href="#contact" className="block hover:text-brand" onClick={closeMenu}>Contact</a>
+          <a href="#book-time" className="block hover:text-brand" onClick={closeMenu}>Book Time</a> 
+          <a href="#WebsitePriceEstimator" className="block hover:text-brand" onClick={closeMenu}>Price Estimator</a> 
         </nav>
       )}
     </header>
