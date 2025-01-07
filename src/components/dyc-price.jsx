@@ -63,7 +63,7 @@ const WebsitePriceEstimator = () => {
       <h2 className="text-3xl font-bold text-brand mb-6">
         Estimate the Price for Your Website
       </h2>
-      <form className="mt-8 max-w-xl lg:mx-auto md:mx-auto sm:mx-5 p-8">
+      <form className="mt-8 max-w-xl lg:mx-auto md:mx-auto mx-5 p-8">
         <div className="mb-6">
           <label
             className="block text-sm font-medium text-gray-600"

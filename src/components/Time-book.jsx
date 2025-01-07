@@ -51,7 +51,7 @@ const BookingForm = () => {
       <h2 className="text-3xl font-bold text-brand">
         Book a Time for a Meeting
       </h2>
-      <form onSubmit={handleSubmit} className="mt-8 max-w-xl lg:mx-auto md:mx-auto sm:mx-5">
+      <form onSubmit={handleSubmit} className="mt-8 max-w-xl lg:mx-auto md:mx-auto mx-5">
         <div>
           <label className="block text-sm font-medium text-gray-600" htmlFor="name">
             Your Name

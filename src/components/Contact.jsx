@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-white text-center">
       <h2 className="text-3xl font-bold text-brand">Contact Me</h2>
-      <form onSubmit={handleSubmit} className="mt-8 max-w-xl lg:mx-auto md:mx-auto sm:mx-5">
+      <form onSubmit={handleSubmit} className="mt-8 max-w-xl lg:mx-auto md:mx-auto mx-5">
         <input
           type="text"
           placeholder="Your Name"
