@@ -6,6 +6,7 @@ const BookingForm = () => {
     name: "",
     email: "",
     duration: 1, // default to 1 hour
+    dateTime: "", // New field for date and time
   });
   const [totalPrice, setTotalPrice] = useState(0);
   const [status, setStatus] = useState("");
@@ -22,20 +23,21 @@ const BookingForm = () => {
       name: formData.name,
       email: formData.email,
       duration: formData.duration,
+      dateTime: formData.dateTime,
       price: totalPrice,
     };
 
     emailjs
       .send(
-        'service_sij9hag', // Replace with your service ID
-        'template_v3rjr84', // Replace with your template ID
+        'service_sij9hag',
+        'template_v3rjr84',
         emailParams,
-        'Ufc6wG8fADGYUCvLV' // Replace with your user ID
+        'Ufc6wG8fADGYUCvLV'
       )
       .then(
         (response) => {
           setStatus("Booking request sent successfully.");
-          setFormData({ name: "", email: "", duration: 1 });
+          setFormData({ name: "", email: "", duration: 1, dateTime: "" });
           setTotalPrice(0);
         },
         (error) => {
@@ -94,7 +96,22 @@ const BookingForm = () => {
             className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
-        
+
+        <div>
+          <label className="block text-sm font-medium text-gray-600" htmlFor="dateTime">
+            Choose Meeting Date and Time
+          </label>
+          <input
+            type="datetime-local"
+            id="dateTime"
+            name="dateTime"
+            value={formData.dateTime}
+            onChange={handleChange}
+            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+          />
+        </div>
+
         <button
           type="submit"
           className="px-6 py-3 mt-5 bg-brand text-white font-semibold rounded-md"
