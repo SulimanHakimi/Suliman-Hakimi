@@ -3,9 +3,9 @@ import { FaDesktop, FaShoppingCart, FaSearch } from 'react-icons/fa';
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-gray-100 text-center">
+    <section id="services" className="py-20 bg-gray-100 text-center ">
       <h2 className="text-3xl font-bold text-brand">My Services</h2>
-      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-2">
         <div className="bg-white p-6 rounded-lg shadow-md">
           <FaDesktop className="w-12 h-12 mx-auto text-brand" />
           <h3 className="text-xl font-semibold text-gray-800 mt-4">Website Design</h3>

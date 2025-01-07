@@ -5,6 +5,9 @@ module.exports = {
       colors: {
         brand: '#FF5736',
       },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+      },
     },
   },
   plugins: [],

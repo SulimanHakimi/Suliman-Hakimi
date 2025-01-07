@@ -14,33 +14,31 @@ const About = () => {
           <div className="text-gray-600">
             <h4 className="font-semibold text-lg text-gray-800">Frontend</h4>
             <ul className="mt-2">
-              <li>- HTML</li>
-              <li>- CSS</li>
-              <li>- Tailwind CSS</li>
-              <li>- JavaScript</li>
-              <li>- React.js</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Tailwind CSS</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
             </ul>
           </div>
 
-          {/* Backend Section */}
           <div className="text-gray-600">
             <h4 className="font-semibold text-lg text-gray-800">Backend</h4>
             <ul className="mt-2">
-              <li>- Node.js</li>
-              <li>- Express.js</li>
-              <li>- Passport.js</li>
-              <li>- MongoDB</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Passport.js</li>
+              <li>MongoDB</li>
             </ul>
           </div>
 
-          {/* Tools Section */}
           <div className="text-gray-600">
             <h4 className="font-semibold text-lg text-gray-800">Tools</h4>
             <ul className="mt-2">
-              <li>- Git</li>
-              <li>- GitHub</li>
-              <li>- VS Code</li>
-              <li>- Google Tools (Analytics, Ads, Console)</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Google Tools (Analytics, Ads, Console)</li>
             </ul>
           </div>
         </div>

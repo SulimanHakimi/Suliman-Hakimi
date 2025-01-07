@@ -25,7 +25,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="py-20 bg-white text-center">
       <h2 className="text-3xl font-bold text-brand">My Portfolio</h2>
-      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-2">
         {projects.map((project, index) => (
           <div key={index} className="bg-gray-100 p-5 rounded-lg shadow-md">
             <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-md" />
