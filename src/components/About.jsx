@@ -10,7 +10,6 @@ const About = () => {
       <div className="mt-10">
         <h3 className="text-xl font-semibold text-gray-800">Skills</h3>
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-10">
-          {/* Frontend Section */}
           <div className="text-gray-600">
             <h4 className="font-semibold text-lg text-gray-800">Frontend</h4>
             <ul className="mt-2">

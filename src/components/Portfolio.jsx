@@ -6,19 +6,19 @@ const Portfolio = () => {
       title: "KuntoX Online Shop Website",
       description: "An e-commerce website built using WordPress, showcasing e-commerce features.",
       link: "https://kuntox.fi",
-      image: "/kuntox.PNG"
+      image: "/images/kuntox.PNG"
     },
     {
       title: "Wowautohuolto Website",
       description: "A WordPress website designed for an auto service business.",
       link: "https://Wowautohuolto.fi",
-      image: "/wow.PNG"
+      image: "/images/wow.PNG"
     },
     {
       title: "Quran Karim App",
       description: "A mobile app providing access to the Quran, showcasing commitment to meaningful applications.",
       link: "https://quran-karim-zeta.vercel.app/",
-      image: "/quran.PNG"
+      image: "/images/quran.PNG"
     },
   ];
 

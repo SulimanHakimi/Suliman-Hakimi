@@ -6,13 +6,13 @@ const Blog = () => {
       title: "Web Development Tips",
       description: "Best practices for writing clean and efficient code.",
       link: "#blog",
-      image: "/1.jpg"
+      image: "/images/1.jpg"
     },
     {
       title: "Tailwind CSS for Beginners",
       description: "A complete guide to using Tailwind CSS in your projects.",
       link: "#blog",
-      image: "/2.jpg"
+      image: "/images/2.jpg"
     },
   ];
   
